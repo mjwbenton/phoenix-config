@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "setup": "rm -f ~/.phoenix.js && ln -s `pwd`/.phoenix.js ~/.phoenix.js"
   },
   "devDependencies": {
     "@types/phoenix": "github:mafredri/phoenix-typings#master",
