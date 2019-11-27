@@ -1,0 +1,19 @@
+{
+  "name": "@mattb.tech/phoenix-config",
+  "version": "1.0.0",
+  "description": "mattb's pheonix config",
+  "main": "index.js",
+  "author": "Matt Benton <m@mattb.tech>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@types/phoenix": "github:mafredri/phoenix-typings#master",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
