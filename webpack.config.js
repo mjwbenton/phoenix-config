@@ -4,8 +4,8 @@ module.exports = {
   mode: "development",
   entry: "./index.ts",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "phoenix.js"
+    path: __dirname,
+    filename: ".phoenix.js"
   },
   resolve: {
     extensions: [".ts"]

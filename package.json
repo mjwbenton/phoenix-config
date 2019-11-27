@@ -1,10 +1,13 @@
 {
   "name": "@mattb.tech/phoenix-config",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "mattb's pheonix config",
   "main": "index.js",
   "author": "Matt Benton <m@mattb.tech>",
   "license": "MIT",
+  "files": [
+    ".phoenix.js"
+  ],
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"
