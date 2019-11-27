@@ -16,7 +16,6 @@ const MODIFIERS: Phoenix.ModifierKey[] = ["ctrl", "alt", "cmd"];
       return;
     }
     const screenFrame = Screen.main().visibleFrame();
-    const y = screenFrame.y;
     const width = Math.floor(screenFrame.width / 3);
     const x = screenFrame.x + width * (column - 1);
     Window.focused().setFrame({
